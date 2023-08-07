@@ -1,0 +1,3505 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border-image: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url(Bebas_Neue/BebasNeue-Regular.ttf);
+
+} 
+
+@font-face {
+    font-family: Fredoka;
+    src: url(Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
+
+}
+
+/* body {
+    position: relative;
+} */
+
+.background {
+    background-color: #BDDCEE;
+    position: relative;
+}
+
+
+/* HEADER */
+
+
+header {
+    height: 120px;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+    float: left;
+    margin: 30px 0 0 100px;
+}
+
+nav {
+    float: left;
+    margin: 75px 0 0 15%;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    margin-left: 90px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0b375c;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #FF965A;
+}
+
+/* HEADER END */
+
+
+/* MAIN */
+
+.title {
+    margin: 100px 0 0 100px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.big, .small {
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+    color: #0b375c;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 85px;
+    letter-spacing: 1px;
+}
+
+.small {
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.title h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #0b375c;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 10px 0 20px;
+}
+
+.title h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #0b375c;
+    font-size: 25px;
+    line-height: 32px;
+    padding-bottom: 30px;
+}
+
+.title button {
+    background-color: #006CB5;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 7px 25px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.title button:hover {
+    background-color: #FF965A;
+    color: #0b375c;
+}
+
+.round-big {
+    width: 70px;
+    height: 70px;
+    background-color: #FF965A;
+    border-radius: 50%;
+    position: absolute;
+    top: 380px;
+    left: 480px;
+    animation: jump 0.9s ease-in infinite;
+}
+
+.round-small {
+    width: 32px;
+    height: 32px;
+    background-color: #FF965A;
+    border-radius: 50%;
+    position: absolute;
+    top: 440px;
+    left: 570px;
+    animation: jump 0.9s ease-in infinite;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50%);
+    }
+}
+
+.round-background {
+    width: 770px;
+    height: 770px;
+    background-color: #FF965A;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -360px;
+}
+
+.main-img {
+    position: absolute;
+    top: 62px;
+    right: 0;
+}
+
+.air-img {
+    position: absolute;
+    top: 460px;
+    right: 420px;
+}
+
+.round-big1 {
+    width: 80px;
+    height: 80px;
+    background-color: #FF965A;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    right: 530px;
+    animation: jump 0.9s ease-in infinite;
+}
+
+.round-small1 {
+    width: 32px;
+    height: 32px;
+    background-color: #FF965A;
+    border-radius: 50%;
+    position: absolute;
+    top: 310px;
+    right: 620px;
+    animation: jump 0.9s ease-in infinite;
+}
+
+
+/*SECTION1*/
+
+
+#section1 {
+    background-color: #E6F6FF;
+}
+
+.title1 {
+    margin: 90px 0 120px 100px;
+    float: left;
+}
+
+.title1 h1 {
+    font-size: 80px;
+    color: #0b375c;
+    text-transform: uppercase;
+    font-family: Fredoka;
+    line-height: 80px;
+    letter-spacing: 2px;
+}
+
+.title1 h4 {
+    font-size: 35px;
+    color: #00345D;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px 0;
+    letter-spacing: 1px;
+}
+
+.line1 {
+    width: 500px;
+    height: 2px;
+    background-color: #FF965A;
+}
+
+.title1 p {
+    font-size: 30px;
+    color: #00345D;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    line-height: 45px;
+    padding: 30px 0;
+}
+
+
+.title-dog {
+    float: left;
+    margin: 130px 0 120px 150px;
+    position: relative;
+}
+
+.title-dog h3 {
+    font-size: 35px;
+    color: #FF965A;
+    font-family: Fredoka;
+    text-transform: uppercase;
+   
+}
+
+.round-blue-big {
+    width: 400px;
+    height: 400px;
+    background-color: #009DED;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.round-blue-small {
+    width: 70px;
+    height: 70px;
+    background-color: #009DED;
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10%);
+    }
+}
+
+.img-dog {
+    width: 247px;
+    height: 533px;
+    position: absolute;
+    top: 160px;
+    left: 230px;
+    animation: jump 1.2s ease-in infinite;
+}
+
+
+/*SLIDER*/
+
+#sectionSlider {
+    position: relative;
+    z-index: 1;
+}
+
+.mySlides {
+    width: 100%;
+    height: auto;
+}
+
+ #sectionSlider button {
+    position: absolute;
+    top: 490px;
+    left: 95px;
+    background-color: #006CB5;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 7px 25px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+#sectionSlider button:hover {
+    background-color: #FF965A;
+    color: #0b375c;
+}
+
+#sectionSlider h1{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    font-family: Bebas Neue;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 95px;
+    text-transform: uppercase;
+    color: #0b375c;
+}
+
+#sectionSlider h4{
+    position: absolute;
+    top: 330px;
+    left: 100px;
+    padding: 40px 0 20px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 3px;
+    color: #0b375c;
+}
+
+
+
+/*SectionProducts*/
+
+
+#sectionProducts {
+    background-color: #E6F6FF;
+    padding-bottom: 110px;
+    position: relative;
+}
+
+.round-orange-big {
+    width: 700px;
+    height: 700px;
+    background-color: #FF8C53;
+    border-radius: 50%;
+    position: absolute;
+    top: -370px;
+    left: -370px;
+}
+
+.round-orange-middle {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    background-color: #FF8C53;
+    position: absolute;
+    top: 60px;
+    right: -30px;
+    animation: jump 1.2s ease-in infinite;
+}
+
+.round-orange-small {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #FF8C53;
+    position: absolute;
+    top: 60px;
+    right: 220px;
+    animation: jump 1.2s ease-in infinite;
+}
+
+#sectionProducts h2 {
+    font-size: 50px;
+    font-family: Fredoka;
+    text-transform: uppercase;
+    color: #0b375c;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.sectionProducts-article {
+    margin: 0 auto;
+    display: table;
+    padding-top: 80px;
+}
+
+#sectionProducts .container article {
+    float: left;
+}
+
+#sectionProducts .container article:nth-child(2) {
+    margin: 0 50px;
+}
+
+#sectionProducts .container img {
+    margin-left: 105px; 
+}
+
+#sectionProducts .container img:hover {
+    transition-duration: 1s;
+    transform: rotate(360deg);
+}
+
+#sectionProducts .container h5 {
+    font-family: Fredoka;
+    text-transform: uppercase;
+    font-size: 27px;
+    color: #0b375c;
+    padding: 30px 0 35px;
+    text-align: center;
+}
+
+#sectionProducts .container p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0b375c;
+    text-align: center;
+}
+
+
+
+/*secionDivision*/
+
+
+#secionDivision {
+    background-color: #E6F6FF;
+    padding-bottom: 60px;
+}
+
+#secionDivision h2 {
+    font-family: Fredoka;
+    font-size: 80px;
+    font-weight: 700;
+    color: #3d9cea;
+    text-transform: uppercase;
+    line-height: 75px;
+    letter-spacing: 3px;
+    float: left;
+}
+
+.round {
+    float: left;
+    margin: 80px 0 0 70px;
+}
+.round-orange-big1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #009CEC;
+    float: left;
+    margin: 20px 0 0 30px;
+    animation: jump 1.2s ease-in infinite
+}
+
+.round-orange-small1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #009CEC;
+    float: left;
+    animation: jump 1.2s ease-in infinite
+}
+
+.division {
+    margin-top: 110px;
+    float: left;
+}
+
+#secionDivision .division img {
+    float: left;
+}
+
+#secionDivision article:nth-child(2) img {
+    margin-top: 20px;
+}
+
+#secionDivision img:hover {
+    transition-duration: 1s;
+    transform: rotate(360deg);
+}
+
+#secionDivision .division ul {
+    float: left;
+    margin: 0 0 40px 70px;
+}
+
+#secionDivision .division ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #0b375c;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.dogInRound {
+    float: left;
+    margin-left: 70px;
+}
+
+
+.dogInRound p {
+    display: table;
+    font-family: Fredoka;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e88b57;
+    margin: 20px 0 0 50px;
+}
+
+
+#discount {
+    background-color: #BDDCEE;
+    padding: 30px 0 19px;
+}
+
+.discount-left {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.round-orange-discount {
+    width: 800px;
+    height: 800px;
+    background-color: #FF9459;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -80px;
+}
+
+.discount-dog {
+    position: absolute;
+    top: 310px;
+    left: 0;
+}
+
+.discount-air {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.round-blue-discount {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #0064B0;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+
+.percentage {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 120px;
+    font-family: Fredoka;
+    font-weight: 600;
+    color: #fff;
+}
+
+.off {
+    text-align: center;
+    font-size: 60px;
+    font-family: Bebas Neue;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.discount-right {
+  margin-left: 900px;
+  margin-top: 50px;
+}
+
+.discount-small {
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+    color: #0b375c;
+    font-size: 70px;
+    font-weight: normal;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+
+.discount-big {
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+    color: #0b375c;
+    font-size: 150px;
+    font-weight: 500;
+    line-height: 130px;
+    letter-spacing: 1px;
+}
+
+.discount-right h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #0b375c;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 10px 0 30px;
+}
+
+.discount-right h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #0b375c;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.discount-right button {
+    background-color: #006CB5;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 7px 25px;
+    transition: 0.5s;
+    font-weight: 600;
+    margin: 90px 0 0;
+}
+
+.discount-right button:hover {
+    background-color: #FF965A;
+    color: #0b375c;
+}
+
+
+#puppy {
+    background-color: #E6F6FF;
+    overflow: hidden;
+    padding-bottom: 150px;
+}
+
+#puppy h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Fredoka;
+    color: #009DED;
+    letter-spacing: 3px;
+    margin-top: 100px;
+}
+
+.puppy-article {
+    display: table;
+    margin: 80px auto 0;
+}
+
+#puppy article {
+    float: left;
+}
+
+#puppy article:nth-child(2) {
+    margin: 0 100px;
+}
+
+.puppy-text {
+    display: table;
+    margin: 0 auto;
+}
+
+#puppy article h3 {
+    font-family: Fredoka;
+    color: #009DED;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 40px 0;
+}
+
+#puppy article p {
+    font-family: 'Open Sans', sans-serif;
+    color: #0b375c;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#puppy article .puppy-text div {
+    width: 280px;
+    height: 2px;
+    background-color: #A999B6;
+    margin: 30px 0;
+}
+
+#puppy article button {
+    background-color: #006CB5;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 7px 25px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+#puppy article button:hover {
+    background-color: #FF965A;
+    color: #0b375c;
+}
+
+
+
+#puppy-food {
+    background-color: #E6F6FF;
+    padding-bottom: 150px;
+}
+
+.puppy-food-left {
+    float: left;
+}
+
+.puppy-food-left h4 {
+    font-family: Fredoka;
+    color: #009DED;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 70px;
+    margin-left: 20px;
+}
+
+.puppy-food-right {
+    float: left;
+    margin-left: 60px;
+}
+
+.puppy-food-right h2 {
+    font-family: Fredoka;
+    color: #0b375c;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 70px;
+}
+
+.puppy-food-right h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #0b375c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 37px;
+    padding: 40px 0 30px;
+}
+
+.puppy-food-right div {
+    width: 580px;
+    height: 2px;
+    background-color: #FF8C53;
+}
+
+.puppy-food-right p {
+    font-family: 'Open Sans', sans-serif;
+    color: #0b375c;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+
+
+.dog-food-img {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.dog-food-img img:first-child {
+    width: 100%;
+    height: auto;
+}
+
+.dog-food-img img:nth-child(2) {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+.dog-food-img h4 {
+    font-family: Fredoka;
+    color: #0b375c;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 340px;
+    left: 150px;
+}
+
+
+
+footer {
+    background-color: #E6F6FF;
+    padding: 90px 0 70px;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-left h5 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #1f262f;
+    font-size: 28px;
+}
+
+.footer-left p {
+    font-family: 'Open Sans', sans-serif;
+    color: #1f262f;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    padding: 20px 0 50px;
+}
+
+.footer-left img {
+    margin-left: 15px;   
+}
+
+.footer-right {
+    float: right;
+    margin-top: 60px;
+}
+
+.footer-ul {
+    float: left;
+}
+
+.footer-right .footer-ul:nth-child(2) {
+    margin: 0 80px;
+}
+
+.footer-ul h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #1f262f;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.footer-ul ul {
+    margin-top: 30px;
+}
+
+.footer-ul ul li {
+    list-style: none;
+    padding-top: 8px;
+}
+
+.footer-ul ul li a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #1f262f;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.footer-ul ul li a:hover {
+    color: #e88b57;
+}
+
+
+@media all and (max-width: 1360px) and (min-width: 1200px) {
+    
+    header {
+        height: 120px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin: 30px 0 0 80px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    nav {
+        margin: 75px 0 0 9%;
+    }
+
+    nav ul li {
+        margin-left: 80px;
+    }
+
+    nav ul li a {
+        font-size: 19px;
+    }
+
+    
+
+    .title {
+        margin: 80px 0 0 80px;
+    }
+
+    .big, .small {
+        font-size: 90px;
+        line-height: 75px;
+    }
+
+    .small {
+        font-size: 45px;
+        line-height: 45px;
+        letter-spacing: 2px;
+    }
+
+    .title h3 {
+        font-size: 27px;
+        line-height: 27px;
+        padding: 10px 0 15px;
+    }
+
+    .title h4 {
+        font-size: 22px;
+        line-height: 29px;
+        padding-bottom: 25px;
+    }
+
+    .title button {
+        font-size: 23px;
+        padding: 6px 23px;
+    }
+
+    .round-big {
+        display: none;
+    }
+
+    .round-small {
+        display: none;
+    }
+
+    .round-background {
+        width: 720px;
+        height: 720px;
+        top: 0;
+        right: -350px;
+    }
+
+    .main-img {
+        top: 77px;
+        width: 470px;
+    }
+
+    .main-img img {
+        width: 100%;
+    }
+
+    .air-img {
+        width: 150px;
+        top: 430px;
+        right: 390px;
+    }
+
+    .air-img img {
+        width: 100%;
+    }
+
+    .round-big1 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .round-small1 {
+        width: 30px;
+        height: 30px;
+        top: 290px;
+        right: 600px;
+    }
+
+
+
+    .title1 {
+        margin: 80px 0 0 80px;
+    }
+    
+    .title1 h1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    
+    .title1 h4 {
+        font-size: 30px;
+    }
+    
+    .line1 {
+        width: 450px;
+    
+    }
+    
+    .title1 p {
+        font-size: 25px;
+        line-height: 37px;
+        letter-spacing: 1px;
+    }
+    
+    
+    .title-dog {
+        margin: 130px 0 0 100px;
+    }
+    
+    .title-dog h3 {
+        font-size: 32px;
+    }
+    
+    .round-orange-big {
+        width: 340px;
+        height: 340px;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+    
+    .round-orange-small {
+        width: 65px;
+        height: 65px;
+    }
+
+    .img-dog {
+        width: 200px;
+        height: 420px;
+        top: 160px;
+        left: 240px
+    }
+
+    .img-dog img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    #sectionSlider button {
+        top: 390px;
+        left: 80px;
+        font-size: 23px;
+        padding: 6px 23px;
+
+    }
+    
+    #sectionSlider h1{
+        top: 110px;
+        left: 80px;
+        font-size: 80px;
+        line-height: 85px;
+    }
+    
+    #sectionSlider h4{
+        top: 260px;
+        left: 80px;
+        padding: 30px 0 15px 0;
+        font-size: 23px;
+        line-height: 37px;
+        letter-spacing: 2px;
+    }
+    
+
+
+
+    .container {
+        width: 1100px;
+    }
+
+    #sectionProducts {
+        padding-bottom: 100px;
+    }
+    
+    .round-orange-big {
+        width: 650px;
+        height: 650px;
+        top: -400px;
+        left: -400px;
+    }
+    
+    .round-orange-middle {
+        width: 150px;
+        height: 150px;
+        right: -60px;
+    }
+    
+    .round-orange-small {
+        width: 70px;
+        height: 70px;
+        right: 150px;
+    }
+    
+    #sectionProducts h2 {
+        font-size: 45px;
+        padding-top: 70px;
+    }
+    
+    .sectionProducts-article {
+        padding-top: 80px;
+    }
+    
+    #sectionProducts .container img {
+        margin-left: 95px;
+        width: 130px;
+    }
+    
+    #sectionProducts .container h5 {
+        font-size: 25px;
+        padding: 25px 0 30px;
+    }
+    
+    #sectionProducts .container p {
+        font-size: 23px;
+    }
+    
+
+
+    .container {
+        width: 1100px;
+    }
+    
+    #secionDivision h2 {
+        font-size: 70px;
+        line-height: 65px;
+        letter-spacing: 3px;
+        margin-left: 25px;
+    }
+    
+    .round {
+        margin: 60px 0 0 90px;
+    }
+
+    .round-orange-big1 {
+        width: 80px;
+        height: 80px;
+
+    }
+    
+    .round-orange-small1 {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .division {
+        margin: 90px 0 0 25px;
+        float: left;
+    }
+    
+    #secionDivision .division img {
+        width: 130px;
+    }
+    
+    #secionDivision .division ul li {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 38px;
+    }
+    
+    .dogInRound {
+        margin-left: 90px;
+    }
+
+    .dogInRound img {
+        width: 500px;
+    }
+    
+    .dogInRound p {
+        font-size: 23px;
+        margin: 20px 0 0 60px;
+    }
+    
+
+
+
+    #discount {
+        padding: 30px 0 80px;
+    }
+
+    .round-orange-discount {
+        width: 730px;
+        height: 730px;
+        left: -70px;
+    }
+    
+    .discount-dog {
+        width: 600px;
+        top: 261px;
+    }
+    
+    .discount-air {
+        width: 290px;
+        top: 80px;
+    }
+    
+    .round-blue-discount {
+        width: 260px;
+        height: 260px;
+        top: 90px;
+        left: 470px;
+    }
+    
+    .percentage {
+        margin-top: 45px;
+        font-size: 110px;
+    }
+    
+    .off {
+        font-size: 55px;
+        font-family: Bebas Neue;
+    }
+    
+    .discount-right {
+      margin-left: 760px;
+      margin-top: 50px;
+    }
+    
+    .discount-small {
+        font-size: 60px;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+    
+    .discount-big {
+        font-size: 130px;
+        line-height: 110px;
+    }
+    
+    .discount-right h3 {
+        font-size: 35px;
+        line-height: 35px;
+        padding: 10px 0 20px;
+    }
+    
+    .discount-right h4 {
+        font-size: 27px;
+        line-height: 33px;
+    }
+    
+    .discount-right button {
+        font-size: 23px;
+        padding: 6px 23px;
+        margin: 70px 0 0;
+    }
+
+
+    .container {
+        width: 1100px;
+    }
+
+    #puppy {
+        padding-bottom: 130px;
+    }
+    
+    #puppy h1 {
+        font-size: 45px;
+        letter-spacing: 2px;
+        margin-top: 90px;
+    }
+    
+    .puppy-article {
+        margin: 70px auto 0;
+    }
+    
+    #puppy article:nth-child(2) {
+        margin: 0 50px;
+    }
+    
+    #puppy article img {
+        width: 260px;
+        display: table;
+        margin: 0 auto;
+    }
+
+    #puppy article h3 {
+        font-size: 33px;
+        padding: 35px 0;
+        margin-left: 40px;
+    }
+    
+    #puppy article p {
+        font-size: 19px;
+        margin-left: 40px;
+    }
+    
+    #puppy article .puppy-text div {
+        width: 270px;
+        margin: 30px 0 0 40px;
+    }
+    
+    #puppy article button {
+        font-size: 23px;
+        padding: 6px 23px;
+        margin: 30px 0 0 40px;
+    }
+
+
+
+    .container {
+        width: 1100px;
+    }
+
+    #puppy-food {
+        padding-bottom: 110px;
+    }
+
+    .puppy-food-left img {
+        width: 410px;
+    }
+    
+    .puppy-food-left h4 {
+        font-size: 35px;
+        padding-top: 50px;
+        margin-left: 30px;
+    }
+    
+    .puppy-food-right {
+        margin-left: 70px;
+    }
+    
+    .puppy-food-right h2 {
+        letter-spacing: 2px;
+        font-size: 60px;
+    }
+    
+    .puppy-food-right h4 {
+        letter-spacing: 2px;
+        font-size: 32px;
+        padding: 35px 0 25px;
+    }
+    
+    .puppy-food-right div {
+        width: 510px;
+    }
+    
+    .puppy-food-right p {
+        letter-spacing: 2px;
+        line-height: 45px;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+
+
+    .dog-food-img img:nth-child(2) {
+        position: absolute;
+        top: 70px;
+        left: 80px;
+        width: 150px;
+    }
+
+    .dog-food-img h4 {
+        font-size: 33px;
+        line-height: 53px;
+        letter-spacing: 2px;
+        top: 270px;
+        left: 80px;
+    }
+
+
+
+    footer {
+        padding: 90px 0 70px;
+    }
+
+    .container {
+        width: 1100px;
+    }
+    
+    .footer-left h5 {
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    
+    .footer-left p {
+        font-size: 20px;
+        line-height: 27px;
+        padding: 15px 0 40px;
+        margin-left: 50px;
+    }
+    
+    .footer-left img {
+        margin-left: 60px;
+        width: 70px;  
+    }
+    
+    .footer-right {
+        margin: 60px 50px 0 0;
+    }
+    
+    .footer-right .footer-ul:nth-child(2) {
+        margin: 0 60px;
+    }
+    
+    .footer-ul h5 {
+        font-size: 19px;
+    }
+    
+    .footer-ul ul {
+        margin-top: 25px;
+    }
+    
+    .footer-ul ul li {
+        list-style: none;
+        padding-top: 6px;
+    }
+    
+    .footer-ul ul li a {
+        font-size: 17px;
+    }
+
+}
+
+
+
+@media all and (max-width: 1199px) and (min-width: 992px) {
+    header {
+        height: 110px;
+    }
+
+    .logo {
+        width: 70px;
+        margin: 30px 0 0 60px;
+    }
+
+
+    .logo img {
+        width: 100%;
+    }
+    
+    
+    nav {
+        margin: 65px 0 0 8%;
+    }
+
+    nav ul li {
+        margin-left: 60px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    .title {
+        margin: 80px 0 0 50px;
+    }
+
+    .big {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .small {
+        font-size: 40px;
+    }
+
+    .title h3 {
+        font-size: 25px;
+    }
+
+    .title h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .title button {
+        font-size: 20px;
+    }
+
+    .round-big {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 310px;
+        left: 330px;
+    }
+
+    .round-small {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 360px;
+        left: 410px;
+    }
+
+    .round-background {
+        width: 650px;
+        height: 650px;
+        position: absolute;
+        top: 30px;
+        right: -315px;
+    }
+    
+    .main-img {
+        width: 450px;
+        position: absolute;
+        top: 109px;
+        right: 0;
+    }
+
+    #main .main-img img {
+        width: 100%;
+    }
+    
+    .air-img {
+        width: 130px;
+        position: absolute;
+        top: 460px;
+        right: 365px;
+    }
+
+    #main .air-img img {
+        width: 100%;
+    }
+    
+    .round-big1, .round-small1 {
+       display: none;
+    }
+
+
+
+
+    .title1 {
+        margin: 90px 0 0 50px;
+    }
+    
+    .title1 h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    
+    .title1 h4 {
+        font-size: 25px;
+    }
+    
+    .line1 {
+        width: 400px;
+    
+    }
+    
+    .title1 p {
+        font-size: 23px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+    
+    
+    .title-dog {
+        margin: 130px 0 0 100px;
+    }
+    
+    .title-dog h3 {
+        font-size: 30px;
+    }
+    
+    .round-blue-big {
+        width: 320px;
+        height: 320px;
+        margin-top: 60px;
+    }
+    
+    .round-blue-small {
+        width: 60px;
+        height: 60px;
+    }
+
+    .img-dog {
+        width: 180px;
+        height: 400px;
+        top: 160px;
+        left: 197px
+    }
+
+    .img-dog img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+        
+    #sectionSlider button {
+        top: 330px;
+        left: 50px;
+        font-size: 18px;
+        padding: 5px 20px;
+    }
+
+    #sectionSlider h1 {
+        top: 70px;
+        left: 50px;
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    #sectionSlider h4{
+        top: 190px;
+        left: 50px;
+        padding: 40px 0 20px 0;
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 2px;
+        
+    }
+
+
+
+    .container {
+        width: 900px;
+    }
+
+    .round-orange-big {
+        width: 550px;
+        height: 550px;
+        top: -300px;
+        left: -300px;
+        
+    }
+
+    .round-orange-middle {
+        width: 120px;
+        height: 120px;
+        right: -30px;
+    
+    }
+    
+    .round-orange-small {
+        width: 70px;
+        height: 70px;
+        right: 180px;
+    }
+    
+    #sectionProducts h2 {
+        font-size: 40px;
+    }
+    
+    #sectionProducts .container article:nth-child(2) {
+       margin: 0 30px;
+    }
+    
+    #sectionProducts .container img {
+        margin-left: 70px;
+        width: 110px; 
+    }
+    
+    #sectionProducts .container h5 {
+        font-size: 22px;
+    }
+    
+    #sectionProducts .container p {
+        font-size: 18px;
+    }
+
+
+
+    .container {
+        width: 900px;
+    }
+
+    #secionDivision h2 {
+        font-size: 60px;
+        line-height: 55px;
+        letter-spacing: 2px;
+    }
+
+    .round {
+        margin: 60px 0 0 70px;
+    }
+
+    .round-orange-big1 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .round-orange-small1 {
+        width: 35px;
+        height: 35px;
+    }
+
+    .division {
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+
+    #secionDivision article:nth-child(2) img {
+        margin-top: 15px;
+    }
+
+    #secionDivision .division ul {
+        margin: 0 0 20px 50px;
+    }
+
+    #secionDivision .division ul li {
+        font-size: 19px;
+        letter-spacing: 1px;
+        line-height: 33px;
+    }
+
+    #secionDivision .division article img {
+        width: 110px;
+    }
+
+    .dogInRound {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .dogInRound img {
+        width: 400px;
+        margin-left: 40px;
+    }
+
+
+    .dogInRound p {
+        font-size: 21px;
+        margin-top: 10px;
+    }
+
+
+
+    .discount-left {
+        padding-bottom: 80px;
+    }
+    
+    .round-orange-discount {
+        width: 650px;
+        height: 650px;
+        left: -80px;
+    }
+    
+    .discount-dog {
+        top: 237px;
+        width: 500px;
+    }
+    
+    .discount-air {
+        width: 250px;
+        top: 70px;
+    }
+    
+    .round-blue-discount {
+        width: 220px;
+        height: 220px;
+        top: 80px;
+        left: 400px;
+    }
+    
+    .percentage {
+        margin-top: 40px;
+        font-size: 100px;
+    }
+    
+    .off {
+        font-size: 50px;
+    }
+    
+    .discount-right {
+      margin-left: 650px;
+    }
+    
+    .discount-small {
+        font-size: 50px;
+        line-height: 45px;
+        letter-spacing: 2px;
+    }
+    
+    .discount-big {
+        font-size: 100px;
+        line-height: 80px;
+    }
+    
+    .discount-right h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding: 10px 0 20px;
+    }
+    
+    .discount-right h4 {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    
+    .discount-right button {
+        font-size: 20px;
+        margin: 60px 0 0;
+    }
+
+
+
+    .container {
+        width: 900px;
+    }
+
+    #puppy {
+        padding-bottom: 100px;
+    }
+    
+    #puppy h1 {
+        font-size: 40px;
+        letter-spacing: 2px;
+        margin-top: 80px;
+    }
+    
+    .puppy-article {
+        margin: 50px auto 0;
+    }
+    
+    #puppy article:nth-child(2) {
+        margin: 0 40px;
+    }
+    
+    #puppy article img {
+        width: 230px;
+        display: table;
+        margin: 0 auto
+    }
+    
+    #puppy article h3 {
+        font-size: 30px;
+        padding: 30px 0;
+    }
+    
+    #puppy article p {
+        font-size: 18px;
+    }
+    
+    #puppy article .puppy-text div {
+        width: 250px;
+        margin: 25px 0;
+    }
+    
+    #puppy article button {
+        font-size: 20px;
+    }
+
+
+
+    .container {
+        width: 900px;
+    }
+
+    #puppy-food {
+        padding-bottom: 80px;
+    }
+
+    .puppy-food-left img {
+        width: 380px;
+    }
+    
+    .puppy-food-left h4 {
+        font-size: 30px;
+        padding-top: 40px;
+        margin-left: 40px;
+    }
+    
+    .puppy-food-right {
+        margin-left: 36px;
+    }
+    
+    .puppy-food-right h2 {
+        letter-spacing: 2px;
+        font-size: 50px;
+    }
+    
+    .puppy-food-right h4 {
+        letter-spacing: 2px;
+        font-size: 27px;
+        padding: 30px 0 20px;
+    }
+    
+    .puppy-food-right div {
+        width: 430px;
+    }
+    
+    .puppy-food-right p {
+        letter-spacing: 1px;
+        line-height: 40px;
+        font-size: 25px;
+        padding-top: 30px;
+    }
+
+
+
+        
+    .dog-food-img img:nth-child(2) {
+        top: 70px;
+        left: 70px;
+        width: 110px;
+    }
+
+    .dog-food-img h4 {
+        font-size: 28px;
+        line-height: 48px;
+        letter-spacing: 2px;
+        top: 220px;
+        left: 70px;
+    }
+
+
+
+    .container {
+        width: 900px;
+    }
+
+    footer {
+        padding: 70px 0px 50px;
+    }
+    
+    
+    .footer-left h5 {
+        font-size: 22px;
+        margin-left: 35px;
+    }
+    
+    .footer-left p {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 20px 0 40px;
+        margin-left: 35px;
+    }
+    
+    .footer-left img {
+        margin-left: 50px;
+        width: 60px;   
+    }
+    
+    .footer-right {
+        margin-top: 50px;
+    }
+    
+    
+    .footer-right .footer-ul:nth-child(2) {
+        margin: 0 60px;
+    }
+    
+    .footer-ul h5 {
+        font-size: 19px;
+    }
+    
+    .footer-ul ul {
+        margin-top: 20px;
+    }
+    
+    .footer-ul ul li {
+        padding-top: 6px;
+    }
+    
+    .footer-ul ul li a {
+        font-size: 16px;
+    }
+
+}
+
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+    header {
+        height: 100px;
+    }
+
+    .logo {
+        width: 65px;
+        margin: 20px 0 0 40px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+    
+    nav {
+        margin: 50px 0 0 10%;
+    }
+
+    nav ul li {
+        margin-left: 45px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .title {
+        margin: 60px 0 0 40px;
+    }
+
+    .big {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .small {
+        font-size: 30px;
+    }
+
+    .title h3 {
+        font-size: 22px;
+    }
+
+    .title h4 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .title button {
+        font-size: 18px;
+        padding: 5px 20px;
+    }
+
+    .round-big {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+    }
+
+    .round-small {
+        width: 27px;
+        height: 27px;
+        position: absolute;
+        top: 40%;
+        left: 47%;
+    }
+
+    .round-background {
+        width: 520px;
+        height: 520px;
+        position: absolute;
+        top: 140px;
+        right: -260px;
+    }
+    
+    .main-img {
+        width: 310px;
+        position: absolute;
+        top: 227px;
+        right: 0;
+    }
+
+    #main .main-img img {
+        width: 100%;
+    }
+    
+    .air-img {
+        display: none;
+    }
+    
+    .round-big1, .round-small1 {
+       display: none;
+    }
+
+    
+
+
+    .title1 {
+        margin: 90px 0 0 40px;
+    
+    }
+    
+    .title1 h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    .title1 h4 {
+        font-size: 20px;
+    }
+    
+    .line1 {
+        width: 300px;
+    
+    }
+    
+    .title1 p {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    
+    
+    .title-dog {
+        margin: 130px 0 0 50px;
+    }
+    
+    .title-dog h3 {
+        font-size: 25px;
+    }
+    
+    .round-blue-big {
+        width: 250px;
+        height: 250px;
+        margin-top: 60px;
+    }
+    
+    .round-blue-small {
+        width: 50px;
+        height: 50px;
+    }
+
+    .img-dog {
+        width: 140px;
+        height: 310px;
+        top: 130px;
+        left: 160px
+    }
+
+    .img-dog img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+        
+    #sectionSlider button {
+        top: 250px;
+        left: 40px;
+        font-size: 16px;
+        padding: 4px 17px;
+    }
+
+    #sectionSlider h1 {
+        top: 60px;
+        left: 40px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    #sectionSlider h4{
+        top: 130px;
+        left: 40px;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 1px; 
+    }
+
+
+    #sectionProducts {
+        padding-bottom: 80px;
+    }
+
+    .container {
+        width: 700px;
+    }
+
+    .round-orange-big {
+        width: 450px;
+        height: 450px;
+        top: -250px;
+        left: -250px;
+    }
+
+    .round-orange-middle {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .round-orange-small {
+        width: 55px;
+        height: 55px;
+        right: 110px;
+    }
+    
+    #sectionProducts h2 {
+        font-size: 28px;
+    }
+
+    #sectionProducts .container article:nth-child(2) {
+        margin: 0 30px 0;
+    }
+    
+    #sectionProducts .container img {
+        margin-left: 55px;
+        width: 90px; 
+    }
+
+    #sectionProducts .container h5 {
+        font-size: 19px;
+        padding: 20px 0 25px;
+    }
+    
+    #sectionProducts .container p {
+        font-size: 14px;
+    }
+
+    
+
+    .container {
+        width: 700px;
+    }
+    
+    #secionDivision {
+        padding-bottom: 40px;
+    }
+
+    #secionDivision h2 {
+        font-size: 40px;
+        line-height: 35px;
+        margin-left: 50px;
+        float: none;
+    }
+
+    .round, .round-orange-big1, .round-orange-small1 {
+        display: none;
+    }
+    
+    .division {
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+
+    #secionDivision article:nth-child(2) img {
+        margin-top: 15px;
+    }
+
+    #secionDivision .division ul {
+        margin: 0 0 20px 40px;
+    }
+
+    #secionDivision .division ul li {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 30px;
+    }
+
+    #secionDivision .division article img {
+        width: 90px; 
+    }
+
+    .dogInRound {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .dogInRound img {
+        width: 280px;
+        margin-left: 40px;
+    }
+
+
+    .dogInRound p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+
+
+
+    .discount-left {
+        padding-bottom: 110px;
+    }
+    
+    .round-orange-discount {
+        width: 530px;
+        height: 530px;
+        left: -100px;
+    }
+    
+    .discount-dog {
+        top: 223px;
+        width: 400px;
+    }
+    
+    .discount-air {
+        width: 200px;
+        top: 90px;
+        left: 60px;
+    }
+    
+    .round-blue-discount {
+        width: 160px;
+        height: 160px;
+        left: 320px;
+    }
+    
+    .percentage {
+        margin-top: 20px;
+        font-size: 60px;
+    }
+    
+    .off {
+        font-size: 35px;
+    }
+    
+    .discount-right {
+      margin-left: 500px;
+    }
+    
+    .discount-small {
+        font-size: 40px;
+        line-height: 35px;
+        letter-spacing: 2px;
+    }
+    
+    .discount-big {
+        font-size: 70px;
+        line-height: 60px;
+    }
+    
+    .discount-right h3 {
+        font-size: 22px;
+        line-height: 25px;
+        padding: 5px 0 15px;
+    }
+    
+    .discount-right h4 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    
+    .discount-right button {
+        font-size: 18px;
+        padding: 5px 20px;
+        margin: 40px 0 0;
+    }
+
+
+
+    .container {
+        width: 700px;
+    }
+
+    #puppy {
+        padding-bottom: 80px;
+    }
+    
+    #puppy h1 {
+        font-size: 35px;
+        letter-spacing: 1px;
+        margin-top: 60px;
+    }
+    
+    .puppy-article {
+        margin: 50px auto 0px;
+    }
+
+    #puppy article:first-child {
+        
+    }
+    
+    #puppy article:nth-child(2) {
+        margin: 0 0 0 15px;
+    }
+
+    #puppy article:last-child {
+        margin: 0 0 0 15px;
+    }
+    
+    #puppy article img {
+        width: 180px;
+    }
+    
+    #puppy article h3 {
+        font-size: 22px;
+        padding: 20px 0;
+    }
+    
+    #puppy article p {
+        font-size: 14px;
+    }
+    
+    #puppy article .puppy-text div {
+        width: 200px;
+        margin: 25px 0;
+    }
+    
+    #puppy article button {
+        font-size: 18px;
+        padding: 5px 20px;
+    }
+
+
+
+
+    .container {
+        width: 700px;
+    }
+
+    #puppy-food {
+        padding-bottom: 80px;
+    }
+
+    .puppy-food-left img {
+        width: 280px;
+    }
+    
+    .puppy-food-left h4 {
+        font-size: 22px;
+        padding-top: 30px;
+        margin-left: 30px;
+    }
+    
+    .puppy-food-right {
+        margin-left: 60px;
+    }
+    
+    .puppy-food-right h2 {
+        letter-spacing: 1px;
+        font-size: 35px;
+    }
+    
+    .puppy-food-right h4 {
+        letter-spacing: 1px;
+        font-size: 20px;
+        padding: 30px 0 20px;
+    }
+    
+    .puppy-food-right div {
+        width: 315px;
+    }
+    
+    .puppy-food-right p {
+        letter-spacing: 1px;
+        line-height: 32px;
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    
+
+
+    .dog-food-img img:nth-child(2) {
+        top: 60px;
+        left: 50px;
+        width: 80px;
+    }
+
+    .dog-food-img h4 {
+        font-size: 22px;
+        line-height: 38px;
+        letter-spacing: 1px;
+        top: 170px;
+        left: 50px;
+    }
+
+
+
+    .container {
+        width: 700px;
+    }
+
+    footer {
+        padding: 50px 0px 30px;
+    }
+    
+    
+    .footer-left h5 {
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    
+    .footer-left p {
+        font-size: 16px;
+        line-height: 23px;
+        padding: 15px 0 30px;
+        margin-left: 25px;
+    }
+    
+    .footer-left img {
+        margin-left: 35px;
+        width: 55px;   
+    }
+    
+    .footer-right {
+        margin-top: 50px;
+    }
+    
+    
+    .footer-right .footer-ul:nth-child(2) {
+        margin: 0 40px;
+    }
+    
+    .footer-ul h5 {
+        font-size: 17px;
+    }
+    
+    .footer-ul ul {
+        margin-top: 15px;
+    }
+    
+    .footer-ul ul li {
+        padding-top: 4px;
+    }
+    
+    .footer-ul ul li a {
+        font-size: 14px;
+
+    }
+
+}
+
+
+@media all and (max-width: 767px) and (min-width: 576px) {
+    header {
+        height: 90px;
+    }
+
+    .logo {
+        width: 60px;
+        margin: 20px 0 0 50px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+    
+    nav {
+        margin: 55px 0 0 7%;
+    }
+
+    nav ul li {
+        margin-left: 40px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    .title {
+        margin: 60px 0 0 50px;
+    }
+
+    .big {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .small {
+        font-size: 30px;
+    }
+
+    .title h3 {
+        font-size: 22px;
+    }
+
+    .title h4 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .title button {
+        font-size: 16px;
+        padding: 4px 18px;
+    }
+
+    .round-big {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 200px;
+        left: 450px;
+    }
+
+    .round-small {
+        width: 27px;
+        height: 27px;
+        position: absolute;
+        top: 260px;
+        left: 500px;
+    }
+
+    .round-background {
+        display: none;
+    }
+    
+    .main-img {
+        display: none;
+    }
+
+    .air-img {
+        display: none;
+    }
+    
+    .round-big1, .round-small1 {
+       display: none;
+    }
+
+
+    .title1 {
+        margin: 50px 0 0 50px;
+    }
+    
+    .title1 h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .title1 h4 {
+        font-size: 20px;
+    }
+    
+    .line1 {
+        width: 300px;
+    
+    }
+    
+    .title1 p {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    .title-dog {
+        margin: 130px 0 0 10px;
+    }
+    
+    .title-dog h3 {
+       display: none;
+    }
+    
+    .round-blue-big {
+       display: none;
+    }
+    
+    .round-blue-small {
+        display: none;
+    }
+
+    .img-dog {
+        width: 140px;
+        height: 310px;
+        top: 130px;
+        left: 0;
+    }
+
+    .img-dog img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    /* #sectionSlider {
+        display: none;
+    } */
+
+
+    #sectionSlider button {
+        top: 190px;
+        left: 50px;
+        font-size: 16px;
+        padding: 4px 16px;
+    }
+
+    #sectionSlider h1 {
+        top: 40px;
+        left: 50px;
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    #sectionSlider h4{
+        top: 95px;
+        left: 50px;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.5px; 
+    }
+
+
+    
+    
+    .container {
+        width: 576px;
+    }
+
+    .round-orange-big {
+        display: none;
+        
+    }
+
+    .round-orange-middle {
+        width: 90px;
+        height: 90px;
+        right: 0;
+        left: -20px;
+    }
+    
+    .round-orange-small {
+        width: 40px;
+        height: 40px;
+        top: 120px;
+        right: 0;
+        left: 90px;
+    }
+    
+    #sectionProducts {
+        padding-bottom: 60px;
+    }
+
+    #sectionProducts h2 {
+        font-size: 25px;
+    }
+
+    .sectionProducts-article {
+        padding-top: 60px;
+    }
+
+    #sectionProducts .container article:first-child {
+        margin-left: 70px;
+    }
+
+    #sectionProducts .container article:nth-child(2) {
+        margin-left: 30px;
+    }
+
+    #sectionProducts .container article:nth-child(3) {
+      margin-left: 70px;
+      padding: 30px 0 0;
+    }
+    
+    #sectionProducts .container img {
+        margin-left: 60px;
+        width: 80px; 
+    }
+
+    #sectionProducts .container h5 {
+        font-size: 17px;
+        padding: 10px 0 15px;
+    }
+    
+    #sectionProducts .container p {
+        font-size: 14px;
+    }
+
+
+
+
+    .container {
+        width: 576px;
+    }
+
+    #secionDivision {
+        padding-bottom: 30px;
+    }
+
+    #secionDivision h2 {
+        font-size: 35px;
+        line-height: 30px;
+        margin-left: 80px;
+        float: none;
+    }
+
+    .round, .round-orange-big1, .round-orange-small1 {
+        display: none;
+    }
+    
+    .division {
+        margin-top: 60px;
+        margin-left: 90px;
+    }
+
+    #secionDivision article:nth-child(2) img {
+        margin-top: 15px;
+    }
+
+    #secionDivision .division ul {
+        margin: 0 0 20px 40px;
+    }
+
+    #secionDivision .division ul li {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 30px;
+    }
+
+    #secionDivision .division article img {
+        width: 90px; 
+    }
+
+    .dogInRound {
+        display: none;
+    }
+
+
+
+
+    .discount-left {
+        padding-bottom: 27px;
+    }
+    
+    .round-orange-discount {
+        width: 380px;
+        height: 380px;
+        left: -60px;
+    }
+    
+    .discount-dog {
+        top: 190px;
+        width: 270px;
+    }
+    
+    .discount-air {
+        width: 150px;
+        top: 90px;
+        left: 30px;
+    }
+    
+    .round-blue-discount {
+        width: 110px;
+        height: 110px;
+        left: 250px;
+    }
+    
+    .percentage {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    
+    .off {
+        font-size: 25px;
+    }
+    
+    .discount-right {
+      margin-left: 370px;
+    }
+    
+    .discount-small {
+        font-size: 30px;
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+    
+    .discount-big {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    .discount-right h3 {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 2px 0 10px;
+    }
+    
+    .discount-right h4 {
+        font-size: 12px;
+        line-height: 21px;
+
+    }
+    
+    .discount-right button {
+        font-size: 16px;
+        padding: 4px 18px;
+        margin: 30px 0 0;
+    }
+
+
+    .container {
+        width: 576px;
+    }
+
+    #puppy {
+        padding-bottom: 80px;
+    }
+    
+    #puppy h1 {
+        font-size: 32px;
+        letter-spacing: 1px;
+        margin-top: 60px;
+    }
+    
+    .puppy-article {
+        margin: 50px auto 0;
+    }
+
+    #puppy article:first-child {
+        margin-left: 50px;
+    }
+    
+    #puppy article:nth-child(2) {
+        margin: 0 0 0 40px;
+    }
+
+    #puppy article:last-child {
+        margin: 50px 0 0 50px;
+    }
+    
+    #puppy article img {
+        width: 180px;
+    }
+    
+    #puppy article h3 {
+        font-size: 23px;
+        padding: 15px 0;
+    }
+    
+    #puppy article p {
+        font-size: 15px;
+    }
+    
+    #puppy article .puppy-text div {
+        width: 210px;
+        margin: 20px 0;
+    }
+    
+    #puppy article button {
+        font-size: 16px;
+        padding: 4px 18px;
+    }
+
+
+    
+    .container {
+        width: 576px;
+    }
+
+    #puppy-food {
+        padding-bottom: 50px;
+    }
+
+    .puppy-food-left {
+        margin-left: 20px;
+    }
+
+    .puppy-food-left img {
+        width: 230px;
+    }
+    
+    .puppy-food-left h4 {
+        font-size: 18px;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .puppy-food-right {
+        margin-left: 20px;
+    }
+    
+    .puppy-food-right h2 {
+        letter-spacing: 1px;
+        font-size: 28px;
+    }
+    
+    .puppy-food-right h4 {
+        letter-spacing: 1px;
+        font-size: 16px;
+        padding: 20px 0 15px;
+    }
+    
+    .puppy-food-right div {
+        width: 255px;
+    }
+    
+    .puppy-food-right p {
+        letter-spacing: 1px;
+        line-height: 24px;
+        font-size: 14px;
+        padding-top: 15px;
+    }
+
+
+    
+    .dog-food-img img:nth-child(2) {
+        top: 30px;
+        left: 45px;
+        width: 60px;
+    }
+
+    .dog-food-img h4 {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        top: 120px;
+        left: 45px;
+    }
+
+
+    .container {
+        width: 576px;
+    }
+
+    footer {
+        padding: 50px 0px 40px;
+    }
+
+    .footer-left h5 {
+        font-size: 16px;
+        margin-left: 40px;
+    }
+    
+    .footer-left p {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 10px 0 20px;
+        margin-left: 40px;
+    }
+    
+    .footer-left img {
+        margin-left: 40px;
+        width: 45px; 
+    }
+    
+    .footer-right {
+        margin-top: 10px;
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+    
+    
+    .footer-right .footer-ul:nth-child(2) {
+        margin: 0 20px;
+    }
+    
+    .footer-ul h5 {
+        font-size: 14px;
+    }
+    
+    .footer-ul ul {
+        margin-top: 15px;
+        margin-right: 30px;
+    }
+    
+    .footer-ul ul li {
+        padding-top: 2px;
+    }
+    
+    .footer-ul ul li a {
+        font-size: 12px;
+    }
+}
+
+
+@media all and (max-width: 575px) {
+    header {
+        height: 80px;
+    }
+
+    .logo {
+        width: 60px;
+        margin: 20px 0 0 50px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    .line {
+        border-top: 2px solid #0b375c;
+        margin-bottom: 12px;
+    }
+
+    .line:last-of-type {
+        margin-bottom: 0;
+    }
+    
+    header nav {
+        width: 40px;
+        float: right;
+        margin: 35px 20px 0 0;
+        position: relative;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        width: 150px;
+        padding-top: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul li {
+        float: none;
+        padding: 4px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin-left: 0;
+    }
+
+    nav ul li a {
+        color: #0b375c;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+
+    .title {
+        margin: 60px 0 0 50px;
+    }
+
+    .big {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .small {
+        font-size: 25px;
+    }
+
+    .title h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .title h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .title button {
+        font-size: 14px;
+        padding: 4px 18px;
+    }
+
+    .round-big {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 180px;
+        left: 330px;
+    }
+
+    .round-small {
+        width: 27px;
+        height: 27px;
+        position: absolute;
+        top: 240px;
+        left: 300px;
+    }
+
+    .round-background {
+        display: none;
+    }
+    
+    .main-img {
+        display: none;
+    }
+
+    .air-img {
+        display: none;
+    }
+    
+    .round-big1, .round-small1 {
+       display: none;
+    }
+
+    .title1 {
+        margin: 60px 0 0 50px;
+    }
+    
+    .title1 h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .title1 h4 {
+        font-size: 18px;
+        padding: 20px 0;
+    }
+    
+    .line1 {
+        width: 285px;
+    
+    }
+    
+    .title1 p {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        padding: 20px 0;
+    }
+
+    .title-dog {
+        display: none;
+    }
+
+
+    #sectionSlider {
+        display: none;
+    }
+
+    
+    .container {
+        width: 280px;
+    }
+
+    #sectionProducts {
+        padding-bottom: 90px;
+    }
+
+    .round-orange-big {
+        display: none;
+        
+    }
+
+    .round-orange-middle {
+        width: 70px;
+        height: 70px;
+        right: 0;
+        left: -10px;
+    }
+    
+    .round-orange-small {
+        width: 30px;
+        height: 30px;
+        top: 120px;
+        right: 0;
+        left: 70px;
+    }
+    
+    #sectionProducts h2 {
+        font-size: 25px;
+    }
+
+    .sectionProducts-article {
+        padding-top: 60px;
+    }
+
+    #sectionProducts .container article {
+        margin-left: 30px;
+    }
+
+    #sectionProducts .container article:nth-child(2) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 0;
+    }
+    
+    #sectionProducts .container img {
+        margin-left: 70px;
+        width: 80px; 
+    }
+
+    #sectionProducts .container h5 {
+        font-size: 17px;
+        padding: 10px 0 15px;
+    }
+    
+    #sectionProducts .container p {
+        font-size: 16px;
+    }
+
+
+    
+    .container {
+        width: 280px;
+    }
+
+    #secionDivision {
+        padding-bottom: 30px;
+    }
+
+    #secionDivision h2 {
+        font-size: 23px;
+        line-height: 25px;
+        margin-left: 0px;
+        float: none;
+    }
+
+    .round, .round-orange-big1, .round-orange-small1 {
+        display: none;
+    }
+    
+    .division {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    #secionDivision article:nth-child(2) img {
+        margin-top: 15px;
+    }
+
+    #secionDivision .division ul {
+        margin: 0 0 20px 40px;
+    }
+
+    #secionDivision .division ul li {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+    }
+
+    #secionDivision .division article img {
+        width: 80px; 
+    }
+
+    .dogInRound {
+        display: none;
+    }
+
+
+
+    #discount {
+        display: none;
+    }
+
+
+
+    .container {
+        width: 280px;
+    }
+
+    #puppy {
+        padding-bottom: 80px;
+    }
+    
+    #puppy h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-top: 60px;
+    }
+    
+    .puppy-article {
+        margin: 50px auto 0;
+    }
+
+    #puppy article:first-child {
+        margin-left: 50px;
+    }
+    
+    #puppy article:nth-child(2) {
+        margin: 50px 0 50px 40px;
+    }
+
+    #puppy article:last-child {
+        margin: 0 0 0 50px;
+    }
+    
+    #puppy article img {
+        width: 180px;
+    }
+    
+    #puppy article h3 {
+        font-size: 23px;
+        padding: 15px 0;
+    }
+    
+    #puppy article p {
+        font-size: 15px;
+    }
+    
+    #puppy article .puppy-text div {
+        width: 210px;
+        margin: 20px 0;
+    }
+    
+    #puppy article button {
+        font-size: 14px;
+        padding: 4px 18px;
+    }
+    
+
+
+    .container {
+        width: 280px;
+    }
+
+    #puppy-food {
+        padding-bottom: 100px;
+    }
+
+    .puppy-food-left {
+        float: none;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .puppy-food-left img {
+        width: 230px;
+    }
+    
+    .puppy-food-left h4 {
+        font-size: 18px;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .puppy-food-right {
+        float: none;
+        margin: 40px 0 0 25px;
+    }
+    
+    .puppy-food-right h2 {
+        letter-spacing: 1px;
+        font-size: 25px;
+    }
+    
+    .puppy-food-right h4 {
+        letter-spacing: 1px;
+        font-size: 14px;
+        padding: 15px 0 10px;
+    }
+    
+    .puppy-food-right div {
+        width: 225px;
+    }
+    
+    .puppy-food-right p {
+        letter-spacing: 1px;
+        line-height: 19px;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+
+    #dog-food {
+        display: none;
+    }
+
+    
+
+    .container {
+        width: 280px;
+    }
+
+    footer {
+        padding: 0 0 40px;
+    }
+
+    .footer-left {
+        float: none;
+    }
+
+    .footer-left h5 {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    
+    .footer-left p {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 10px 0 20px;
+        margin-left: 30px;
+    }
+    
+    .footer-left img {
+        margin-left: 30px;
+        width: 40px; 
+    }
+    
+    .footer-right {
+        margin-top: 0;
+        padding-top: 30px;
+        margin-left: 30px;
+        float: none;
+    }
+    
+    
+    .footer-right .footer-ul:nth-child(2) {
+        margin: 0 20px;
+    }
+    
+    .footer-ul h5 {
+        font-size: 14px;
+    }
+    
+    .footer-ul ul {
+        margin-top: 15px;
+        margin-right: 30px;
+    }
+    
+    .footer-ul ul li {
+        padding-top: 2px;
+    }
+    
+    .footer-ul ul li a {
+        font-size: 12px;
+    }
+}
